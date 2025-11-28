@@ -4,8 +4,6 @@ import random, copy, time
 
 N = 9
 BOX = 3
-
-# ---------------- Sudoku logic ----------------
 def is_valid(board, r, c, val):
     if any(board[r][i] == val for i in range(N)): return False
     if any(board[i][c] == val for i in range(N)): return False
@@ -164,3 +162,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
