@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import random, copy, time
 
-N = 9, BOX = 3 # for naking a good small board( its demensions)
+N = 9, BOX = 3 # for making a good small board( its demensions)
 def is_valid(board, r, c, val):
     if any(board[r][i] == val for i in range(N)): return False
     if any(board[i][c] == val for i in range(N)): return False
@@ -163,6 +163,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
