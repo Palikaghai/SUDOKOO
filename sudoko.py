@@ -20,12 +20,14 @@ def find_empty(board):
 
 def solve(board):
     empty = find_empty(board)
-    if not empty: return True
+    if not empty: 
+        return True
     r, c = empty
     for val in range(1, 10):
         if is_valid(board, r, c, val):
             board[r][c] = val
-            if solve(board): return True
+            if solve(board): 
+                return True
             board[r][c] = 0
     return False
 
@@ -161,5 +163,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
