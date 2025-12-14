@@ -156,12 +156,13 @@ class SudokuGUI:
                     self.entries[r][c].insert(0, str(self.puzzle[r][c]))
                     self.entries[r][c].config(state="disabled", disabledforeground="black")
                 else:
-                    self.entries[r][c].config(state="normal", fg="black")
+                    self.entries[r][c].config(state="normal", fg="white")
 
 if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
