@@ -45,7 +45,7 @@ def generate_full_board():
                 if fill(): return True
                 board[r][c] = 0
         return False
-    fill()
+fill()
     return board
 
 def generate_puzzle(clues=35):
@@ -162,6 +162,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
