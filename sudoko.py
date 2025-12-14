@@ -66,7 +66,6 @@ def generate_puzzle(clues=35):
             removed += 1
     return puzzle, full
 
-# ---------------- GUI ----------------
 class SudokuGUI:
     def __init__(self, root):
         self.root = root
@@ -163,6 +162,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
