@@ -160,10 +160,12 @@ class SudokuGUI:
                 else:
                     self.entries[r][c].config(state="normal", fg="white")
 
+
 if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
