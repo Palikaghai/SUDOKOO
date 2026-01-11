@@ -131,6 +131,7 @@ class SudokuGUI:
             self.entries[r][c].config(fg="green")
         else:
             self.entries[r][c].config(fg="red")
+            
 
     def check_all(self):
         board = self.get_board()
@@ -161,6 +162,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
