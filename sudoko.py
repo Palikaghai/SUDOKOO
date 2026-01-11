@@ -12,6 +12,7 @@ def is_valid(board, r, c, val):
             if board[i][j] == val: return False
     return True
 
+
 def find_empty(board):
     for r in range(N):
         for c in range(N):
@@ -162,6 +163,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
