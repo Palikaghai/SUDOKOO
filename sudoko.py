@@ -32,6 +32,7 @@ def solve(board):
             board[r][c] = 0
     return False
 
+
 def generate_full_board():
     board = [[0]*N for _ in range(N)]
     def fill():
@@ -163,6 +164,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
