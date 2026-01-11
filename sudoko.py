@@ -136,7 +136,7 @@ class SudokuGUI:
     def check_all(self):
         board = self.get_board()
         if board == self.solution:
-            messagebox.showinfo("Sudoku", "🎉 Congratulations! You solved it!")
+            messagebox.showinfo( "🎉 Congratulations! You solved it!")
         else:
             messagebox.showwarning("Sudoku", "❌ Mistakes present or not complete.")
 
@@ -162,6 +162,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
