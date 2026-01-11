@@ -104,7 +104,6 @@ class SudokuGUI:
         tk.Button(btn_frame, text="🔄 Reset", bg="#ffcccb",
                   command=self.reset).pack(side="left", padx=5)
 
-        # Timer label
         self.timer_label = tk.Label(root, text="Time: 0s", font=("Arial", 14))
         self.timer_label.pack(pady=5)
         self.update_timer()
@@ -162,6 +161,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     SudokuGUI(root)
     root.mainloop()
+
 
 
 
