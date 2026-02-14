@@ -12,6 +12,7 @@
 * CHECKING IF WE PLACED CORRECT NUMBER
 
      a) Green -> If we placed the correct Number
+
      b) Red -> If we placed the wrong Number
 
 
