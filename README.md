@@ -8,3 +8,7 @@
 * Easy to extend: Add GUI with Tkinter/Streamlit!
 
 # SNAPSHOTS
+
+# CHECKING IF WE PLACED CORRECT NUMBER 
+* Green 
+<img width="463" height="609" alt="image" src="https://github.com/user-attachments/assets/af695601-b1ec-459b-98f7-360a60acf53f" />
