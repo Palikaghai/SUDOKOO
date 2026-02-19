@@ -3,7 +3,7 @@
  Each playground is three by three, just like tic-tac-toe but way bigger and with numbers!!
 
 # TECH STACK
-* Python 3.8+
+* Python 3.9+
 * Backtracking algorithm (O(1) avg for 9x9)
 * Easy to extend: Add GUI with Tkinter/Streamlit!
 
