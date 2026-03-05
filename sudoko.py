@@ -5,6 +5,73 @@ import random, copy, time
 N = 9
 BOX = 3
 
+# Difficulty levels configuration
+DIFFICULTY_LEVELS = {
+    "Easy": 45,
+    "Medium": 35,
+    "Difficult": 20
+}
+
+# Beautiful color themes
+THEMES = {
+    "Ocean": {
+        "bg": "#0f1419",
+        "light_cell": "#1e3a5f",
+        "dark_cell": "#0d2540",
+        "grid_color": "#2a5aa8",
+        "text_given": "#e0f2ff",
+        "text_user": "#4db8ff",
+        "text_correct": "#00cc44",
+        "text_wrong": "#ff4444",
+        "button_bg": "#1e3a5f",
+        "button_fg": "#00d4ff",
+        "header_bg": "#0d1f2d",
+        "header_fg": "#00d4ff"
+    },
+    "Forest": {
+        "bg": "#0d2818",
+        "light_cell": "#1a4d2e",
+        "dark_cell": "#0d2818",
+        "grid_color": "#2d6a4f",
+        "text_given": "#d1e7dd",
+        "text_user": "#52b788",
+        "text_correct": "#74c69d",
+        "text_wrong": "#ff6b6b",
+        "button_bg": "#1a4d2e",
+        "button_fg": "#52b788",
+        "header_bg": "#0d1f14",
+        "header_fg": "#52b788"
+    },
+    "Sunset": {
+        "bg": "#2a1a0f",
+        "light_cell": "#5d3a1a",
+        "dark_cell": "#3d2415",
+        "grid_color": "#8b5a2b",
+        "text_given": "#ffe4b5",
+        "text_user": "#ffb366",
+        "text_correct": "#ffd700",
+        "text_wrong": "#ff6347",
+        "button_bg": "#5d3a1a",
+        "button_fg": "#ffb366",
+        "header_bg": "#3d2415",
+        "header_fg": "#ffb366"
+    },
+    "Purple Nights": {
+        "bg": "#1a0f2e",
+        "light_cell": "#3d2463",
+        "dark_cell": "#2a1847",
+        "grid_color": "#553399",
+        "text_given": "#e6d5ff",
+        "text_user": "#cc99ff",
+        "text_correct": "#00ff88",
+        "text_wrong": "#ff4d94",
+        "button_bg": "#3d2463",
+        "button_fg": "#cc99ff",
+        "header_bg": "#2a1847",
+        "header_fg": "#cc99ff"
+    }
+}
+
 # Sudoku logic
 def is_valid(board, r, c, val):
     if any(board[r][i] == val for i in range(N)): return False
@@ -288,3 +355,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     StartScreen(root)
     root.mainloop()
+
