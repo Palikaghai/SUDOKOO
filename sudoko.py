@@ -85,7 +85,8 @@ def is_valid(board, r, c, val):
 def find_empty(board):
     for r in range(N):
         for c in range(N):
-            if board[r][c] == 0: return r, c
+            if board[r][c] == 0: 
+                return r, c
     return None
 
 def solve(board):
@@ -355,4 +356,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     StartScreen(root)
     root.mainloop()
+
 
