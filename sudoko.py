@@ -79,7 +79,8 @@ def is_valid(board, r, c, val):
     br, bc = (r // BOX) * BOX, (c // BOX) * BOX
     for i in range(br, br+BOX):
         for j in range(bc, bc+BOX):
-            if board[i][j] == val: return False
+            if board[i][j] == val: 
+                return False
     return True
 
 def find_empty(board):
@@ -356,5 +357,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     StartScreen(root)
     root.mainloop()
+
 
 
