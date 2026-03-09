@@ -8,6 +8,8 @@
 * Easy to extend: Add GUI with Tkinter/Streamlit!
 
 # SNAPSHOTS
+* LANDING PAGE
+<img width="603" height="784" alt="image" src="https://github.com/user-attachments/assets/19138ef0-610f-4a3a-80b2-e756e6f26da1" />
 
 
 
