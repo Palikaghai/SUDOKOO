@@ -9,6 +9,7 @@
 
 # SNAPSHOTS
 * LANDING PAGE
+  containing levels + themes
 <img width="603" height="784" alt="image" src="https://github.com/user-attachments/assets/19138ef0-610f-4a3a-80b2-e756e6f26da1" />
 
 
